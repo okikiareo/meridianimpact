@@ -1,0 +1,147 @@
+/* Responsive Styles */
+
+@media (max-width: 968px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+  .wwd-content {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 2rem 5%;
+  }
+
+  .wwd-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .wwd-image {
+    height: 350px;
+  }
+
+  .what-we-do-wrapper {
+    height: 350vh;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 3%;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .desktop-cta {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .slide-content {
+    left: 3%;
+    max-width: 90%;
+  }
+
+  .slide-content h1 {
+    font-size: 2rem;
+  }
+
+  .slide-content p {
+    font-size: 1rem;
+  }
+
+  .slider-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .slider-nav.prev {
+    left: 1rem;
+  }
+
+  .slider-nav.next {
+    right: 1rem;
+  }
+  .about-section {
+    padding: 3rem 3%;
+  }
+  .about-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .about-content {
+    padding: .5rem 0;
+    width: 100%;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.1rem;
+  }
+  .wwd-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .wwd-image {
+    height: 280px;
+  }
+
+  .wwd-items {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .logo-icon img {
+    width: 5rem;
+  }
+  header {
+    padding: 0.5rem 3%;
+  }
+  .mobile-menu {
+    top: 60px;
+  }
+  .about-image {
+    width: 95%;
+  }
+  .about-text {
+    font-size: .95rem;
+    margin-bottom: 1rem;
+    }
+    .work-image {
+        height: 220px;
+        padding: 15px;
+      }
+}
+
+@media (max-width: 390px){
+    .about-title {
+        font-size: 1.5rem;
+    }
+    .work-content h3 {
+        font-size: 1.1rem;
+    }
+}
