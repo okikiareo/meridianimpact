@@ -270,7 +270,12 @@ nav a:hover {
 .slider-nav.next {
   right: 2rem;
 }
-
+.slide-font-reduce h1{
+font-size:2rem
+}
+.slide-font-reduce p{
+  font-size:1rem
+  }
 /* Slider Indicators */
 .slider-indicators {
   position: absolute;
@@ -937,13 +942,13 @@ nav a:hover {
     margin-bottom: 1.5rem;
 }
 
-.footer-logo .logo-icon {
+/* .footer-logo .logo-icon {
     width: 60px;
     height: 60px;
     background: #FFD700;
     border-radius: 50%;
     flex-shrink: 0;
-}
+} */
 
 .footer-logo .logo-text {
     display: flex;
