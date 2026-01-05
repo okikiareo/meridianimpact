@@ -98,3 +98,40 @@ function updateWWDSections() {
 
 window.addEventListener("scroll", updateWWDSections);
 window.addEventListener("load", updateWWDSections);
+
+// Gallery Scroll Functionality
+let galleryScrollPosition = 0;
+const galleryTrack = document.querySelector('.gallery-track');
+
+function moveGallery(direction) {
+    if (!galleryTrack) return;
+    
+    const itemWidth = 450 + 24; // item width + gap
+    const maxScroll = -(galleryTrack.scrollWidth / 2);
+    
+    galleryScrollPosition += direction * itemWidth * -1;
+    
+    // Reset position for infinite scroll
+    if (galleryScrollPosition < maxScroll) {
+        galleryScrollPosition = 0;
+    } else if (galleryScrollPosition > 0) {
+        galleryScrollPosition = maxScroll;
+    }
+    
+    galleryTrack.style.animation = 'none';
+    galleryTrack.style.transform = `translateX(${galleryScrollPosition}px)`;
+    
+    // Resume animation after manual control
+    setTimeout(() => {
+        galleryTrack.style.animation = 'scroll 30s linear infinite';
+    }, 100);
+}
+
+// Duplicate gallery items for seamless infinite scroll
+if (galleryTrack) {
+    const items = Array.from(galleryTrack.children);
+    items.forEach(item => {
+        const clone = item.cloneNode(true);
+        galleryTrack.appendChild(clone);
+    });
+}
