@@ -179,7 +179,9 @@
   .wwd-text h2 {
     font-size: 1.8rem;
   }
-
+  .about-video iframe{
+width: 480px;
+  }
   .wwd-image {
     height: 280px;
   }
@@ -233,6 +235,9 @@
   .mobile-menu {
     top: 60px;
   }
+  .hero-slider{
+    margin-top: 61px;
+ }
   .about-image {
     width: 95%;
   }
@@ -240,17 +245,32 @@
     font-size: .95rem;
     margin-bottom: 1rem;
     }
+    .about-video iframe{
+      width: 400px;
+        }
     .work-image {
         height: 220px;
         padding: 15px;
       }
+      .articles-grid {
+        grid-template-columns: repeat(1, 1fr);
+}
 }
 
 @media (max-width: 390px){
+  .about-video iframe{
+  width: 320px;
+  height: 250px;
+}
     .about-title {
         font-size: 1.5rem;
     }
     .work-content h3 {
         font-size: 1.1rem;
     }
+}
+@media (max-width: 340px){
+  .about-video iframe{
+    width: 100%;
+  }
 }
