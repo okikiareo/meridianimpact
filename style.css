@@ -99,7 +99,7 @@ nav a:hover {
 /* Mobile Menu */
 .mobile-menu {
   position: fixed;
-  top: 80px;
+  top: 75px;
   left: 0;
   right: 0;
   background: #fff;
@@ -380,7 +380,7 @@ nav a:hover {
 /* What We Do Wrapper */
 .what-we-do-wrapper {
   position: relative;
-  height: 300vh; /* Adjusted for 3 sections */
+  height: 400vh; /* Adjusted for 3 sections */
 }
 
 .what-we-do-section {
@@ -424,7 +424,7 @@ nav a:hover {
 }
 
 .wwd-text h2 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   color: #1a237e;
   margin-bottom: 1.5rem;
   font-weight: 600;

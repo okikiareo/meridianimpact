@@ -255,6 +255,9 @@ width: 480px;
       .articles-grid {
         grid-template-columns: repeat(1, 1fr);
 }
+.what-we-do-section {
+  padding: 2rem 0;
+}
 }
 
 @media (max-width: 390px){
