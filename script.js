@@ -135,3 +135,134 @@ if (galleryTrack) {
         galleryTrack.appendChild(clone);
     });
 }
+
+// Blog Posts Functionality
+async function fetchBlogPosts() {
+  try {
+      // Fetch all markdown files from the content/blog directory
+      const response = await fetch('https://api.github.com/repos/okikiareo/meridianimpact/contents/content/blog');
+      const files = await response.json();
+      
+      // Filter for markdown files only
+      const markdownFiles = files.filter(file => file.name.endsWith('.md'));
+      
+      // Fetch content of each markdown file
+      const posts = await Promise.all(
+          markdownFiles.map(async (file) => {
+              const contentResponse = await fetch(file.download_url);
+              const content = await contentResponse.text();
+              return parseMarkdownPost(content, file.name);
+          })
+      );
+      
+      // Sort by date (newest first)
+      posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+      
+      return posts;
+  } catch (error) {
+      console.error('Error fetching blog posts:', error);
+      return [];
+  }
+}
+
+function parseMarkdownPost(content, filename) {
+  // Extract frontmatter (metadata between --- markers)
+  const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
+  const match = content.match(frontmatterRegex);
+  
+  if (!match) return null;
+  
+  const frontmatter = match[1];
+  const body = match[2];
+  
+  // Parse frontmatter fields
+  const post = {};
+  frontmatter.split('\n').forEach(line => {
+      const [key, ...valueParts] = line.split(':');
+      if (key && valueParts.length) {
+          const value = valueParts.join(':').trim().replace(/^["']|["']$/g, '');
+          post[key.trim()] = value;
+      }
+  });
+  
+  post.body = body;
+  post.slug = filename.replace('.md', '');
+  
+  return post;
+}
+
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+  });
+}
+
+// Display latest 3 posts on homepage
+async function displayHomepagePosts() {
+  const postsContainer = document.getElementById('homepage-blog-posts');
+  if (!postsContainer) return;
+  
+  const posts = await fetchBlogPosts();
+  const latestPosts = posts.slice(0, 3);
+  
+  if (latestPosts.length === 0) {
+      postsContainer.innerHTML = '<p>No blog posts yet.</p>';
+      return;
+  }
+  
+  postsContainer.innerHTML = latestPosts.map(post => `
+      <article class="blog-card">
+          <div class="blog-image">
+              <img src="${post.thumbnail || '/img/placeholder.jpg'}" alt="${post.title}">
+          </div>
+          <div class="blog-content">
+              <div class="blog-meta">
+                  <span class="blog-date">${formatDate(post.date)}</span>
+                  <span class="blog-category">${post.category || 'Uncategorized'}</span>
+              </div>
+              <h3>${post.title}</h3>
+              <p>${post.excerpt || ''}</p>
+              <a href="blog-post.html?slug=${post.slug}" class="blog-read-more">Read More →</a>
+          </div>
+      </article>
+  `).join('');
+}
+
+// Display all posts on blog page
+async function displayAllPosts() {
+  const postsContainer = document.getElementById('all-blog-posts');
+  if (!postsContainer) return;
+  
+  const posts = await fetchBlogPosts();
+  
+  if (posts.length === 0) {
+      postsContainer.innerHTML = '<p>No blog posts yet.</p>';
+      return;
+  }
+  
+  postsContainer.innerHTML = posts.map(post => `
+      <article class="blog-card">
+          <div class="blog-image">
+              <img src="${post.thumbnail || '/img/placeholder.jpg'}" alt="${post.title}">
+          </div>
+          <div class="blog-content">
+              <div class="blog-meta">
+                  <span class="blog-date">${formatDate(post.date)}</span>
+                  <span class="blog-category">${post.category || 'Uncategorized'}</span>
+              </div>
+              <h3>${post.title}</h3>
+              <p>${post.excerpt || ''}</p>
+              <a href="blog-post.html?slug=${post.slug}" class="blog-read-more">Read More →</a>
+          </div>
+      </article>
+  `).join('');
+}
+
+// Initialize blog displays
+document.addEventListener('DOMContentLoaded', () => {
+  displayHomepagePosts();
+  displayAllPosts();
+});

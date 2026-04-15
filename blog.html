@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Meridian Impact</title>
+    <link rel="icon" type="image/svg+png" href="./img/meridian-logo-1.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+    <!-- Header (copy from index.html) -->
+    <header>
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-text">
+                <div class="logo-icon">
+                  <img src="/img/meridian-logo.png" alt="" />
+                </div>
+              </div>
+        </div>
+        
+        <nav class="desktop-nav">
+            <a href="index.html">HOME</a>
+        <a href="#">BLOG </a>
+        </nav>
+        <button class="cta-button desktop-cta">Impact Summit →</button>
+        
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Mobile Menu (copy from index.html) -->
+    <div class="mobile-menu">
+        <nav class="mobile-nav">
+            <a href="index.html" onclick="toggleMobileMenu()">HOME</a>
+            <a href="index.html" onclick="toggleMobileMenu()">ABOUT</a>
+            <a href="blog.html" onclick="toggleMobileMenu()">BLOG</a>
+            <button class="cta-button mobile-cta">Impact Summit →</button>
+        </nav>
+    </div>
+
+    <!-- Blog Page Hero -->
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>Our <span class="highlight">Blog</span></h1>
+            <p>Insights, stories, and updates from Meridian Impact Foundation</p>
+        </div>
+    </section>
+
+    <!-- All Blog Posts -->
+    <section class="all-blog-section">
+        <div id="all-blog-posts" class="blog-grid">
+            <!-- All blog posts will be loaded here dynamically -->
+            <p>Loading posts...</p>
+        </div>
+    </section>
+
+    <!-- Footer (copy from index.html) -->
+    <footer class="footer">
+        <!-- Copy entire footer from index.html -->
+    </footer>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

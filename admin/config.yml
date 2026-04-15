@@ -18,4 +18,4 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Category", name: "category", widget: "select", options: ["Behavioral Insights", "Gender & Inclusion", "Policy Innovation", "Community Development"] }
+     - { label: "Category", name: "category", widget: "string" } 
