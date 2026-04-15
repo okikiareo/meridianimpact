@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main # Change to 'master' if your default branch is master
+
+media_folder: "img/blog" # Where uploaded images will be stored
+public_folder: "/img/blog" # Public path to images
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog Posts" # Used in the UI
+    folder: "content/blog" # Path where blog posts will be stored
+    create: true # Allow users to create new posts
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template
+    fields: # Fields for each blog post
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Category", name: "category", widget: "select", options: ["Behavioral Insights", "Gender & Inclusion", "Policy Innovation", "Community Development"] }
