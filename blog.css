@@ -392,7 +392,7 @@
 /* External Link Section */
 .post-external-link {
     margin: 3rem 0;
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -402,7 +402,7 @@
     align-items: flex-start;
     gap: 1.5rem;
     background: linear-gradient(135deg, #e8f0f7 0%, #f0f4f8 100%);
-    padding: 2rem;
+    padding: 1.2rem;
     border-radius: 12px;
     border-left: 4px solid #1a237e;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -414,8 +414,8 @@
 }
 
 .external-link-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     color: #1a237e;
     flex-shrink: 0;
     margin-top: 0.2rem;
@@ -538,12 +538,12 @@
     .external-link-card {
         flex-direction: column;
         gap: 1rem;
-        padding: 1.5rem;
+        padding: 1rem;
     }
 
     .external-link-icon {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .external-link-content a {
