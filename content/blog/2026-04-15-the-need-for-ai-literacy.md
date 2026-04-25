@@ -5,6 +5,7 @@ author: Areoluwamide
 thumbnail: /img/blog/refer.jpg
 excerpt: Reason why people need to start embracing AI education
 category: Gender & Inclusion
+external_link: https://www.online.uc.edu/blog/artificial-intelligence-ai-benefits.html
 ---
 Artificial Intelligence (AI) is no longer a futuristic concept—it is already embedded in everyday life. From recommendation systems on platforms like YouTube and TikTok to virtual assistants such as ChatGPT, AI shapes how people communicate, learn, shop, and make decisions. As its influence grows, so does the need for AI literacy.
 
