@@ -86,7 +86,16 @@ async function displayAllPosts() {
         
         // Convert markdown to HTML
         document.getElementById('post-body').innerHTML = marked.parse(post.body);
-        
+        // Handle external link (NEW - Add this section)
+        if (post.external_link && post.external_link.trim() !== '') {
+            const externalLinkSection = document.getElementById('post-external-link');
+            const externalLinkUrl = document.getElementById('external-link-url');
+            const externalLinkText = document.getElementById('external-link-text');
+            
+            externalLinkSection.style.display = 'block';
+            externalLinkUrl.href = post.external_link;
+            externalLinkText.textContent = post.external_link;
+        }
         // Setup share buttons
         const pageUrl = encodeURIComponent(window.location.href);
         const pageTitle = encodeURIComponent(post.title);

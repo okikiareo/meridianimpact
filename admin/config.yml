@@ -19,3 +19,4 @@ collections:
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Category", name: "category", widget: "string" }
+      - { label: "External Link", name: "external_link", widget: "string", required: false, hint: "Optional: Add a link to an external resource" }
