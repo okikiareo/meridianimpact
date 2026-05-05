@@ -7,47 +7,35 @@ excerpt: https://www.oneyoungworld.com/scholarship/leading-st-louis-scholarship-
 category: "Scholarship "
 external_link: https://www.oneyoungworld.com/scholarship/leading-st-louis-scholarship-2026
 ---
-One Young World
+**One Young World**
 
-
-
-St. Louis Scholarship 2026
+**St. Louis Scholarship 2026**
 
 For six exceptional young leaders who are living and making an impact in St. Louis, Missouri.
 
-Opening date:
+**Opening date:**
 
-27 April 2026
+**27 April 2026**
 
-Application deadline:
+**Application deadline:**
 
-8 June 2026
+**8 June 2026**
 
-About the scholarship
+
+
+**About the scholarship**
 
 St. Louis, Missouri embodies the American spirit of progress, resilience, and community-driven change. Our city's young leaders are tackling mental health disparities across neighborhoods, revitalizing urban communities, advancing healthcare and biotech innovation, and driving economic development. 
 
-
-
 The Leading St. Louis Scholarship, supported by World Wide Technology and Bright path STEAM Academy will support six exceptional young leaders who are living and making an impact in the St. Louis, Missouri area to attend the One Young World Summit 2026 in Cape Town, South Africa, from November 3-6, 2026. 
-
-
 
 For young people in St. Louis, this isn't just a trip - it's transformation that creates leaders who return with a sharper perspective, global networks, and renewed energy to lead in their own communities. We’re looking for candidates who have made a real impact in their communities, can work well with people from different backgrounds, show strong leadership potential, and are guided by a clear sense of purpose. We select for merit, impact, and character - period.
 
- 
 
 
 
- 
 
-
-
-Candidate criteria
-
-Eligible candidates must: 
-
-
+**Eligible candidates must:** 
 
 Be living and making an impact in the St. Louis, Missouri metropolitan area.
 
@@ -59,9 +47,7 @@ Be aged 18 – 30
 
 Hold a valid passport.
 
-In addition, candidates must demonstrate: 
-
-
+**In addition, candidates must demonstrate:** 
 
 Leadership Capabilities and Potential: Current leadership experience in professional, academic, or community settings with measurable outcomes and clear examples of mobilizing others or leading change.
 
@@ -75,10 +61,6 @@ Communications Skills: The ability to represent St. Louis with clarity, authenti
 
 Please note that if shortlisted for the scholarship, you may be invited to participate in an interview. 
 
-
-
-\*Most delegates are between the ages of 18 and 30. The One Young World team will consider applications from those who are older than 30, pending demonstration of appropriate personal impact, initiative, and willingness to engage. We are not able to accept applications from those who will be aged under 18 at the time of the Summit.
-
-What will you receive?
+Most delegates are between the ages of 18 and 30. The One Young World team will consider applications from those who are older than 30, pending demonstration of appropriate personal impact, initiative, and willingness to engage. We are not able to accept applications from those who will be aged under 18 at the time of the Summit.
 
 Application Deadline: 8 June 2026
