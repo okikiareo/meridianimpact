@@ -9,7 +9,7 @@ excerpt: |-
 category: "Bootcamp "
 external_link: https://tally.so/r/xXNg6G?utm_source=linkedin&utm_medium=social&utm_campaign=li-bio-sm-ypb26
 ---
-<https://youngprofessionalsng.org/?utm_source=linkedin&utm_medium=social&utm_campaign=li-bio-sm-ypb26>**About the Young Professionals Bootcamp (YPB)**
+**About the Young Professionals Bootcamp (YPB)**
 
 **The Young Professionals Bootcamp is a 3-day in-residence program designed to equip young people with world class practical training, inspire innovation, and accelerate solutions that will ultimately lead to the transformation of Nigeria.**
 
@@ -44,3 +44,5 @@ external_link: https://tally.so/r/xXNg6G?utm_source=linkedin&utm_medium=social&u
 **Grant Funding and Support**
 
 **Fellows will get the opportunity to pitch their existing enterprises for a chance to win a seed grant from a fund pool of up to N150 Million, and receive support to scale their ventures.**
+
+**Apply Now**
