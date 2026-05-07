@@ -3,21 +3,19 @@ title: "Young Professionals Bootcamp (YPB) "
 date: 2026-05-05T10:02:00.000+01:00
 author: "Phebean Sallem "
 thumbnail: /img/blog/1002391726.png
-excerpt: >-
+excerpt: |-
   
-  Young Professionals Bootcamp (YPB) https://youngprofessionalsng.org/?utm_source=linkedin&utm_medium=social&utm_campaign=li-bio-sm-ypb26
+  Young Professionals Bootcamp (YPB) 
 category: "Bootcamp "
 external_link: https://tally.so/r/xXNg6G?utm_source=linkedin&utm_medium=social&utm_campaign=li-bio-sm-ypb26
 ---
-**About the Young Professionals Bootcamp (YPB)**
+<https://youngprofessionalsng.org/?utm_source=linkedin&utm_medium=social&utm_campaign=li-bio-sm-ypb26>**About the Young Professionals Bootcamp (YPB)**
 
 **The Young Professionals Bootcamp is a 3-day in-residence program designed to equip young people with world class practical training, inspire innovation, and accelerate solutions that will ultimately lead to the transformation of Nigeria.**
 
 **300 candidates will be selected from a pool of numerous applications to go through the intensive professional bootcamp. Candidates also stand a chance of accessing mentorship opportunities and seed funding to scale their entrepreneurial endeavors.**
 
 **The YPB has remained steadfast on its mission for a decade.**
-
-
 
 **Eligibility Criteria**
 
@@ -26,8 +24,6 @@ external_link: https://tally.so/r/xXNg6G?utm_source=linkedin&utm_medium=social&u
 * **Final year student or graduate from a tertiary institution**
 * **Citizen of the Federal Republic of Nigeria**
 * **Passionate about solving problems and thriving in Nigeria**
-
-
 
 **The YPB Advantage**
 
