@@ -1,6 +1,6 @@
 ---
 title: Marshall University Scholarship in USA 2026 | Fully Funded
-date: 2026-07-12T13:31:00.000+01:00
+date: 2026-07-13T13:31:00.000+01:00
 author: Phebean Sallem
 thumbnail: https://jobs.rwfm.tamu.edu/view-job/?id=116947
 excerpt: "Call for application into Marshall University Scholarship in USA 2026 "
