@@ -2,7 +2,7 @@
 title: Naija Coke Summership Program for Undergraduates 2026 | How To Apply
 date: 2026-06-30T13:03:00.000+01:00
 author: Phebean Sallem
-thumbnail: https://careers.coca-colahellenic.com/en_US/careers
+thumbnail: /img/blog/1002711924.png
 excerpt: >+
   The Coca Cola Hellenic Bottling Company (HBC) has announced applications for
   its 2026 Naija Coke Summership Program for undergraduate students.
