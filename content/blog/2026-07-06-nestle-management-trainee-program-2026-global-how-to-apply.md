@@ -1,8 +1,8 @@
 ---
 title: Nestle Management Trainee Program 2026 (Global) | How To Apply
-date: 2026-07-06T14:02:00.000+01:00
+date: 2026-07-08T14:02:00.000+01:00
 author: Phebean Sallem
-thumbnail: https://www.nestle.com/jobs/search-jobs?career_area=All&country=&keyword=management%20trainee&location=&page=%2C1
+thumbnail: /img/blog/1002712094.png
 excerpt: >+
   The Nestle Management Trainee Program offers a 1-2 year training opportunity
   that includes monthly renumerations, projects, mentorship, professional
