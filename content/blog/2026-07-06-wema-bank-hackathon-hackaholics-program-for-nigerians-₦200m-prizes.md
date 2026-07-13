@@ -1,8 +1,8 @@
 ---
 title: WEMA Bank Hackathon Hackaholics Program for Nigerians (₦200m Prizes)
-date: 2026-07-06T12:41:00.000+01:00
+date: 2026-07-08T12:41:00.000+01:00
 author: Phebean Sallem
-thumbnail: https://hackaholics.wemabank.com/
+thumbnail: /img/blog/1002712119.png
 excerpt: >+
   Application period for the WEMA Bank Hackathon Hackaholics Program 7.0 has
   been announced!
