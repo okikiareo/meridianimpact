@@ -3,7 +3,7 @@ title: MTN Foundation/Muson Music Scholarship Program 2026/2027 for aspiring
   Musicians.
 date: 2026-07-20T11:20:00.000+01:00
 author: Phebean Sallem
-thumbnail: https://www.mtn.ng/foundation/muson2026/
+thumbnail: /img/blog/1002759592.png
 excerpt: "Applications are now open for the 21st Cohort of the MUSON/MTNF Music
   Scholars Programme, offering admission into the MUSON/MTNF Diploma Course in
   Music. "
