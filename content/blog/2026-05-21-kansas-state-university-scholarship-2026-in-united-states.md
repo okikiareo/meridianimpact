@@ -1,6 +1,6 @@
 ---
 title: Kansas State University Scholarship 2026 in United States
-date: 2026-05-21T08:02:00.000+01:00
+date: 2026-09-09T11:02:00.000+01:00
 author: Phebean Sallem
 thumbnail: /img/blog/1002457455.png
 excerpt: >
