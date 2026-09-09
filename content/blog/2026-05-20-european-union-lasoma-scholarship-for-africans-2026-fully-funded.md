@@ -1,6 +1,6 @@
 ---
 title: European Union LASOMA Scholarship For Africans 2026 | Fully Funded
-date: 2026-05-20T17:32:00.000+01:00
+date: 2026-09-08T14:32:00.000+01:00
 author: Phebean Sallem
 thumbnail: https://pums.pentvars.edu.gh/lasoma/scholarships
 excerpt: >
